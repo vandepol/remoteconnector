@@ -1,7 +1,6 @@
 #!groovy
 
-@Library('https://github.com/WASdev/microservicebuilder.lib') _
+@Library('MicroserviceBuilder') _
 microserviceBuilderPipeline {
   image = 'remoteconnector'
 }
- 
